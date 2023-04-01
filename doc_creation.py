@@ -41,7 +41,7 @@ def main():
         for charge_group in get_charge_group_lists(customer, RECORDS_PER_PAGE):
             new_page(customer, charge_group, document)
 
-    current_time = datetime.now().strftime("%d%m%h_%H%M%S")
+    current_time = datetime.now().strftime("%d%h_%H_%M_%S")
     document.save(f'{current_time}_Billing_Data.docx')
 
 
