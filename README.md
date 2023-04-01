@@ -1,5 +1,5 @@
 # medical_billing
-Program to read from a csv and create medical billing documents for insurance company fillings
+Proof of concept that creates a multi-page word document of medical billing data that is seperated by page breaks.  Example JSON formatted data from a CSV file is provided as a static variable in the example python script.
 
 - To run this program, you will need to install the `python-docx` package onto your computer:
   ```shell
